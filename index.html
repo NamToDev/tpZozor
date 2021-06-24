@@ -29,14 +29,14 @@
 	<div id="corpDuSite">
 		<!-- banniere -->
 		<div id="banniere">
-			<p id="photoSF"><img src="images/sanfrancisco.jpg" alt="photo de la ville de SanFrancisco"></p>
-			<p>Retour sur mes vacances aux États-Unis...<p id="bouton">Voir l'article</p></p>
+			<p id="phrase">Retour sur mes vacances aux États-Unis...
+			<a href="#" id="bouton">Voir l'article <img src="images/flecheblanchedroite.png" alt="fleche blanche"></a></p>
 		</div>
 
 		<section>
 			<!-- Contenu -->
 			<article>
-				<h1>JE SUIS UN GRAND VOYAGEUR</h1>
+				<h1><img src="images/ico_epingle.png" alt="icone" id="icone">JE SUIS UN GRAND VOYAGEUR</h1>
 
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -64,13 +64,13 @@
 			<aside>
 				<h2>À PROPOS DE L'AUTEUR</h2>
 
-				<p><img src="images/zozor_classe.png" alt="photo de zozor"></p>
+				<img src="images/zozor_classe.png" alt="photo de zozor">
 
 				<p>Laisse-moi le temps de me présenter : je m'appelle ZoZor, je suis né un 23 Novembre 2005</p>
 
 				<p>Bien maigre, n'est-ce pas ? C'est pourquoi, aujourd'hui, j'ai décidé d'écrire ma biographie (ou zBiographie, comme vous voulez !) afin que les zèros sachent enfin qui je suis réellement.</p>
 
-				<ul>
+				<ul id="reseauSociaux">
 					<li><a href="#"><img src="images/facebook.png" alt="icone facebook"></a></li>
 					<li><a href="#"><img src="images/twitter.png" alt="icone twitter"></a></li>
 					<li><a href="#"><img src="images/vimeo.png" alt="icone vimeo"></a></li>
@@ -81,9 +81,11 @@
 		</section>
 	</div>
 
+	<p id="icone_top"><img src="images/ico_top.png" alt="icone"></p>
+
 		<!-- pied de page -->
 		<footer>
-			<div id="tweet">
+			<div>
 				<h2>MON DERNIER TWEET</h2>
 
 				<p>Hii haaaaaan!</p>
@@ -91,8 +93,9 @@
 				<p>Le 12 mai à 23h12</p>
 			</div>
 
-			<div id="photos">
-				<ul>
+			<div >
+				<h2>MES PHOTOS</h2>
+				<ul id="photos">
 					<li><img src="images/photo1.jpg"></li>
 					<li><img src="images/photo2.jpg"></li>
 					<li><img src="images/photo3.jpg"></li>
@@ -100,20 +103,25 @@
 				</ul>
 			</div>
 
-			<div id="mesAmis">
-				<ul class="listeAmis">
-					<li>Pupi le lapin</li>
-					<li>Mr Baobab</li>
-					<li>Kalwall</li>
-					<li>Perceval.eu</li>
-				</ul>
+			<div>
+				<h2>MES AMIS</h2>
 
-				<ul class="listeAmis">
-					<li>Belette</li>
-					<li>Le concombre masqué</li>
-					<li>Ptit prince</li>
-					<li>Mr Fan</li>
-				</ul>
+				<div id="listeAmis">
+					<ul class="listeAmis">
+						<li>Pupi le lapin</li>
+						<li>Mr Baobab</li>
+						<li>Kalwall</li>
+						<li>Perceval.eu</li>
+					</ul>
+
+					<ul class="listeAmis">
+						<li>Belette</li>
+						<li>Le concombre masqué</li>
+						<li>Ptit prince</li>
+						<li>Mr Fan</li>
+					</ul>
+				</div>
+				
 			</div>
 		</footer>
 	</section>

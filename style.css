@@ -31,6 +31,7 @@ header
 	display: flex;
 	justify-content: space-between;
 	height: 107px;
+	background: url('images/separateur.png') repeat-x bottom;
 }
 
 /* Partie logo */
@@ -83,8 +84,118 @@ header
 .elementMenu:hover
 {
 	color: brown;
-	text-decoration: underline;
-	font-weight: bold;
+	border-bottom: 3px solid brown;
+}
+
+#banniere
+{
+	background-image: url('images/sanfrancisco.jpg');
+	height: 200px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 6px black;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-top: 20px;
+}
+
+#phrase
+{
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+	height: 40px;
+	margin-bottom: 2px;
+	border-radius: 0px 3px;
+}
+
+#bouton
+{
+	height: 30px;
+	width: 60px;
+	background: url('images/fond_degraderouge.png');
+	border-radius: 2px;
+	text-decoration: none;
+	color: white;
+}
+
+section
+{
+	display: flex;
+	background: url('images/separateur.png') repeat-x bottom;
+	padding-bottom: 50px;
+}
+
+#icone
+{
+	position: relative;
+	top: 15px;
+	margin-right: 7px;
+}
+
+aside
+{
+	background-color: grey;
+	margin-top: 35px;
+	border-radius: 7px;
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+
+aside > h2
+{
+	font-size: 1.1em;
+}
+
+aside > p
+{
+	text-align: justify;
+	font-size: 0.8em;
+}
+
+#reseauSociaux
+{
+	margin-left: -30px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+
+article
+{
+	margin-right: 10px;
 }
 
 
+footer
+{
+	display: flex;
+	background: url('images/ombre.png') repeat-x top;
+	padding-top: 30px;
+	justify-content: space-between;
+
+}
+
+footer > div > h2
+{
+	font-size: 1.1em;
+}
+
+#photos
+{
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+}
+
+#mesAmis
+{
+	display: flex;
+}
+
+#listeAmis
+{
+	display: flex;
+}
