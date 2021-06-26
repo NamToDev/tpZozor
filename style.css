@@ -20,7 +20,7 @@
 body
 {
 	background-image: url('images/fond_jaune.png');
-	width: 90%;
+	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: 'dayrom', serif, sans-serif;
@@ -106,6 +106,7 @@ header
 	height: 40px;
 	margin-bottom: 2px;
 	border-radius: 0px 3px;
+
 }
 
 #bouton
@@ -116,12 +117,17 @@ header
 	border-radius: 2px;
 	text-decoration: none;
 	color: white;
+	text-align: center;
+	font-size: 0.7em;
+	padding: 4px 4px;
+	position: relative;
+	right: -510px;
+	bottom: -8px;
 }
 
 section
 {
 	display: flex;
-	background: url('images/separateur.png') repeat-x bottom;
 	padding-bottom: 50px;
 }
 
@@ -135,6 +141,7 @@ section
 aside
 {
 	background-color: grey;
+	height: 360px;
 	margin-top: 35px;
 	border-radius: 7px;
 	padding: 10px;
@@ -142,15 +149,22 @@ aside
 	text-align: center;
 }
 
+#flechebulle
+{
+	position: relative;
+	top: 55px;
+	left: -58px;
+}
+
 aside > h2
 {
-	font-size: 1.1em;
+	font-size: 0.8em;
 }
 
 aside > p
 {
 	text-align: justify;
-	font-size: 0.8em;
+	font-size: 0.7em;
 }
 
 #reseauSociaux
@@ -172,7 +186,7 @@ article
 footer
 {
 	display: flex;
-	background: url('images/ombre.png') repeat-x top;
+	background: url('images/ico_top.png') no-repeat top center, url('images/separateur.png') repeat-x top,url('images/ombre.png') repeat-x top;
 	padding-top: 30px;
 	justify-content: space-between;
 
@@ -183,11 +197,23 @@ footer > div > h2
 	font-size: 1.1em;
 }
 
+#icone
+{
+	
+}
+
 #photos
 {
 	display: flex;
 	list-style: none;
 	justify-content: space-between;
+}
+
+#photos > li
+{
+	border:  1px solid black;
+	height: 69px;
+	margin-right: 5px;
 }
 
 #mesAmis
@@ -198,4 +224,6 @@ footer > div > h2
 #listeAmis
 {
 	display: flex;
+	color: brown;
+	list-style-image: url('images/ico_liensexterne.png');
 }
